@@ -1,27 +1,21 @@
 ---
-title: About us
+title: About
 tags:
   - nav
 navtitle: About
 section: about
-date: 2017-01-01
+date: 2018-09-29
 permalink: /about/index.html
 ---
 
-Leverage agile frameworks to provide a robust synopsis for high level overviews. Iterative approaches to corporate strategy foster collaborative thinking to further the overall value proposition. Organically grow the holistic world view of disruptive innovation via workplace diversity and empowerment.
+<h1>{{ title }}</h1>
 
-## Our services
+I'm <a class="accent" href="https://hmillerdev.com">Hunter Miller</a>, a front-end architect and web perf enthusiast. I write a daily newsletter, **Technically UX**, to keep the web community talking about how to improve the usability of the experiences we create. By doing so, I hope to bridge the gap between UX, design, and development so that our products can be more cohesive and enjoyable.
 
-Bring to the table win-win survival strategies to ensure proactive domination. At the end of the day, going forward, a new normal that has evolved from generation X is on the runway heading towards a streamlined cloud solution. User generated content in real-time will have multiple touchpoints for offshoring. Organically grow the holistic world view of disruptive innovation via workplace diversity and empowerment.
+## How it started
 
-### Blue-sky thinking
+Technically UX started as an idea for a talk about the **subtle technical interactions** users have with our software that we as developers sometimes forget. They fall into somewhat of a grey area of responsibility between development and UX. My intent was to illuminate these cob webs in the corners of our apps and websites, to help developers start thinking more about what they are building every day.
 
-Capitalize on low hanging fruit to identify a ballpark value added activity to beta test. Override the digital divide with additional clickthroughs from DevOps. Nanotechnology immersion along the information highway will close the loop on focusing solely on the bottom line. Organically grow the holistic world view of disruptive innovation via workplace diversity and empowerment.
+## What you'll get
 
-#### Management frameworks
-
-Podcasting operational change management inside of workflows to establish a framework. Taking seamless key performance indicators offline to maximise the long tail. Keeping your eye on the ball while performing a deep dive on the start-up mentality to derive convergence on cross-platform integration. Organically grow the holistic world view of disruptive innovation via workplace diversity and empowerment.
-
-##### Regulatory convergence
-
-Collaboratively administrate empowered markets via plug-and-play networks. Dynamically procrastinate B2C users after installed base benefits. Dramatically visualize customer directed convergence without revolutionary ROI. Organically grow the holistic world view of disruptive innovation via workplace diversity and empowerment.
+Reading this newsletter will help you start thinking more **holistically** about the software you build, notice the **smaller technical details** that you're exposing to users every day, and show how you can create nuance in those interactions to bring **peace to your users**. They may not even realize what's happening, but they'll feel more at ease.

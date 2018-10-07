@@ -1,6 +1,11 @@
 <footer>
   <small>
-    This project is maintained by <a href="https://www.danurbanowicz.com">Dan Urbanowicz</a>.
-    View the <a href="{{ pkg.repository.url }}">Github repo</a>.
+    Copyright &copy; 2018 <a class="accent" href="https://hmillerdev.com">Hunter Miller</a>, Front-End Architect and Technical UX Consultant.
   </small>
-</footer>
+</footer> 
+
+{% set js %}
+  {% include "assets/js/fontfaceobserver.standalone.js" %}
+  {% include "assets/js/inline.js" %}
+{% endset %}
+<script>{{ js | jsmin | safe }}</script>

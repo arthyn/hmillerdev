@@ -73,7 +73,8 @@ module.exports = function(eleventyConfig) {
     templateFormats: [
       "md",
       "njk",
-      "html"
+      "html",
+      "js"
     ],
 
     // If your site lives in a different subdirectory, change this.

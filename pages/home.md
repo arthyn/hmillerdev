@@ -7,14 +7,28 @@ navtitle: Home
 tags:
   - nav
 ---
-# Welcome
 
-This is a template for building a simple blog website with the [Eleventy static site generator](https://www.11ty.io), with deployment to [Netlify](https://www.netlify.com).
+<div class="home-intro">
 
-Includes [Netlify CMS](https://www.netlifycms.org) for WYSIWYG content editing, and [Netlify Forms](https://www.netlify.com/docs/form-handling) for processing your site's form data.
+<h1 class="huge">Sick of frustrated users?</h1>
 
-For more info on installation and usage, view the project repo on [Github]({{ pkg.repository.url }}).
+Learn how to **bring peace to your users** by thinking more **holistically**,  learning **what really matters**, and building **polished experiences** without a UX team
 
-Or click the button below to deploy your own copy of this project to Netlify.
+</div>
 
-[![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/danurbanowicz/eleventy-netlify-boilerplate&stack=cms)
+<div id="mc_embed_signup" class="signup">
+  <form action="https://technicalux.us19.list-manage.com/subscribe/post?u=56c6f8e41435d3eb139fdb118&amp;id=e8622636c2" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
+    <div id="mc_embed_signup_scroll">
+      <div class="inline-form-group">
+        <input type="email" value="" name="EMAIL" class="email" id="mce-EMAIL" placeholder="email address" required>
+        <button name="subscribe" id="mc-embedded-subscribe">Subscribe</button>
+      </div>
+      <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
+      <div style="position: absolute; left: -5000px;" aria-hidden="true">
+        <input type="text" name="b_56c6f8e41435d3eb139fdb118_e8622636c2" tabindex="-1" value="">
+      </div>
+    </div>
+  </form>
+</div>
+
+**Technically UX** is a weekly newsletter that helps web professionals craft effective user experiences. We discuss UX principles, performance, accessibility, and other topics relevant to developers, UX designers, and those who are trying to best serve their users.

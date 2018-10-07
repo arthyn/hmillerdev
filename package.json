@@ -5,6 +5,7 @@
   "scripts": {
     "build": "npx eleventy",
     "watch": "npx eleventy --watch",
+    "serve": "npx eleventy --serve",
     "debug": "DEBUG=* npx eleventy"
   },
   "repository": {
@@ -29,6 +30,8 @@
   },
   "dependencies": {
     "clean-css": "^4.1.11",
+    "fg-loadcss": "^2.0.1",
+    "fontfaceobserver": "^2.0.13",
     "html-minifier": "^3.5.19",
     "uglify-js": "^3.4.5"
   }
