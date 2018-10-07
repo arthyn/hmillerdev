@@ -1,6 +1,6 @@
 const { DateTime } = require("luxon");
 const CleanCSS = require("clean-css");
-const UglifyJS = require("uglify-js");
+const minify = require("babel-minify");
 const htmlmin = require("html-minifier");
 
 module.exports = function(eleventyConfig) {
@@ -24,7 +24,7 @@ module.exports = function(eleventyConfig) {
 
   // Minify JS
   eleventyConfig.addFilter("jsmin", function(code) {
-    let minified = UglifyJS.minify(code);
+    let minified = minify(code);
     if( minified.error ) {
       console.log("UglifyJS error: ", minified.error);
       return code;
