@@ -11,10 +11,17 @@
   <meta name="msapplication-TileColor" content="#2d3beb">
   <meta name="msapplication-config" content="/static/browserconfig.xml">
   <meta name="theme-color" content="#2d3beb">
+
+  {% set jsdetect %}
+    {% include "assets/js/detect-cached-font.js" %}
+  {% endset %}
+  <script>{{ jsdetect | jsmin | safe }}</script>
+
   {% set css %}
     {% include "assets/css/inline.css" %}
   {% endset %}
   <style>{{ css | cssmin | safe }}</style>
+  
   <link rel="dns-prefetch" href="https://use.typekit.net">
   <link rel="preload" href="https://use.typekit.net/sqq3kst.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
   <noscript><link rel="stylesheet" href="https://use.typekit.net/sqq3kst.css"></noscript>

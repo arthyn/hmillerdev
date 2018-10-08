@@ -1,0 +1,19 @@
+{
+    "name": "Technically UX",
+    "short_name": "Technically UX",
+    "icons": [
+        {
+            "src": "/static/android-chrome-192x192.png",
+            "sizes": "192x192",
+            "type": "image/png"
+        },
+        {
+            "src": "/static/android-chrome-256x256.png",
+            "sizes": "256x256",
+            "type": "image/png"
+        }
+    ],
+    "theme_color": "#2d3beb",
+    "background_color": "#2d3beb",
+    "display": "standalone"
+}
