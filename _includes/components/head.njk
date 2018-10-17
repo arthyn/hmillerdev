@@ -2,6 +2,7 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>{{ title }} | {{ metadata.title }}</title>
+  <meta name="description" content="{{ description or metadata.description }}">
   <link rel="apple-touch-icon" sizes="180x180" href="/static/apple-touch-icon.png">
   <link rel="icon" type="image/png" sizes="32x32" href="/static/favicon-32x32.png">
   <link rel="icon" type="image/png" sizes="16x16" href="/static/favicon-16x16.png">
@@ -11,6 +12,25 @@
   <meta name="msapplication-TileColor" content="#2d3beb">
   <meta name="msapplication-config" content="/static/browserconfig.xml">
   <meta name="theme-color" content="#2d3beb">
+  <meta name="image" content="{{ metadata.url }}/static/share.png">
+  <!-- Schema.org for Google -->
+  <meta itemprop="name" content="{{ title }} | {{ metadata.title }}">
+  <meta itemprop="description" content="{{ description or metadata.description }}">
+  <meta itemprop="image" content="{{ metadata.url }}/static/share.png">
+  <!-- Twitter -->
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="{{ title }} | {{ metadata.title }}">
+  <meta name="twitter:description" content="{{ description or metadata.description }}">
+  <meta name="twitter:creator" content="@hmillerdev">
+  <meta name="twitter:image:src" content="{{ metadata.url }}/static/share.png">
+  <!-- Open Graph general (Facebook, Pinterest & Google+) -->
+  <meta name="og:title" content="{{ title }}">
+  <meta name="og:description" content="{{ description or metadata.description }}">
+  <meta name="og:image" content="{{ metadata.url }}/static/share.png">
+  <meta name="og:url" content="{{ metadata.url }}">
+  <meta name="og:site_name" content="{{ metadata.title }}">
+  <meta name="og:locale" content="en_US">
+  <meta name="og:type" content="website">
 
   {% set jsdetect %}
     {% include "assets/js/detect-cached-font.js" %}
