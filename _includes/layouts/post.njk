@@ -13,6 +13,8 @@ section: post
 
   {{ layoutContent | safe }}
 
+  {% include "components/signup.njk" %}
+
   {% if tags %}
     <p>
     {% for tag in tags %}
