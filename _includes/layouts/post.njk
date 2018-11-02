@@ -13,6 +13,8 @@ section: post
 
   {{ layoutContent | safe }}
 
+  <p>&nbsp;</p>
+  <h3>Like what you've seen so far?<br>Sign up here to get it straight in your inbox:</h3>
   {% include "components/signup.njk" %}
 
   {% if tags %}
@@ -25,7 +27,6 @@ section: post
     {% endfor %}
     </p>
   {% endif %}
-
 </article>
 
 <nav>
