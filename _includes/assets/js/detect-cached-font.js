@@ -6,6 +6,6 @@ if (sessionStorage.getItem('fontsLoaded') === 'true') {
 }
 
 function startLoadingFonts() {
-    loadJS('/_includes/assets/js/fontfaceobserver.standalone.js');
-    loadJS('/_includes/assets/js/inline.js');
+    loadJS('/_includes/assets/js/fontfaceobserver.standalone.js', 
+        () => loadJS('/_includes/assets/js/inline.js'));
 }
