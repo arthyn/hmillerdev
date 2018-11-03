@@ -3,9 +3,3 @@
     Copyright &copy; 2018 <a class="accent" href="https://twitter.com/hmillerdev">Hunter Miller</a>, front-end architect and web perf enthusiast.
   </small>
 </footer> 
-
-{% set js %}
-  {% include "assets/js/fontfaceobserver.standalone.js" %}
-  {% include "assets/js/inline.js" %}
-{% endset %}
-<script>{{ js | jsmin | safe }}</script>

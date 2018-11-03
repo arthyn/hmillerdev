@@ -1,9 +1,11 @@
-function getCookie(name) {
-    var v = document.cookie.match('(^|;) ?' + name + '=([^;]*)(;|$)');
-    return v ? v[2] : null;
+if (sessionStorage.getItem('fontsLoaded') === 'true') {
+    document.documentElement.classList.add('fonts-loaded');
+    console.log('Fonts cached', document.documentElement.className);
+} else {
+    startLoadingFonts();
 }
 
-if (getCookie("fonts-loaded")) {
-    document.documentElement.classList.add('fonts-loaded');
-    console.log('Cookie found', document.documentElement.className);
+function startLoadingFonts() {
+    loadJS('/_includes/assets/js/fontfaceobserver.standalone.js');
+    loadJS('/_includes/assets/js/inline.js');
 }
