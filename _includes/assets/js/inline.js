@@ -1,4 +1,4 @@
-if (sessionStorage.getItem('fontsLoaded') === 'false') {
+if (sessionStorage.getItem('fontsLoaded') === null) {
   console.log('loading fonts');
   loadFonts();
 }
