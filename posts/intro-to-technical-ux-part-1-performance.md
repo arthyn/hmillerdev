@@ -8,7 +8,7 @@ tags:
   - performance
 ---
 
-I thought since this topic is brand new let's start out with the most obvious aspect of technical UX, performance. Throughout school and the entirety of my career, developers have always focused on software performance. I think we would all agree that makes sense. Very few people want to spend their precious time waiting on computers. We've developed all this technology which should theoretically be faster than we can keep up with. 
+I thought since this topic is brand new let's start out with the most obvious aspect of technical UX, performance. Throughout school and the entirety of my career, developers have always focused on software performance. I think we would all agree that makes sense. Very few people want to spend their precious time waiting on computers, and we've developed all this technology which should theoretically be faster than we can keep up with. 
 
 And yet. 
 
@@ -41,10 +41,11 @@ While users are completing their task we need to keep interruptions to a minimum
 When interruptions and delays are unavoidable we can work with human physiology to keep our users at ease<sup>[3](#notes)</sup> by falling back on illusions that things are going fast. To do this we can show skeletons or estimates of what they are about to see. We can process in the background so that interactions are immediate. We can also provide other indicators of loading/processing and other relevant feedback early and often so that users think the computer is keeping up. If we can match the users' expectations then our perceived performance will be even better than our actual performance.
 
 <hr>
+<br>
 
 With goals and context in mind, following these principles should be straightforward. I hope that they're general enough to at least get you in the performance mindset when developing. Performance can be tricky and optimizing too early in the process can lead to wasted effort. After I've introduced the main aspects of technical UX, we'll dive into specific strategies for creating performant experiences on the web.
 
-Part two drops next week. If you have any questions about this topic or suggestions for the newsletter feel free to reply to this email.
+Part two drops next week. If you have any questions about this topic or suggestions for the newsletter feel free to <a href="mailto:hunter@technicallyux.com">email me</a>.
 
 <p>Until next time,<br>&ndash; <strong>Hunter</strong></p>
 
