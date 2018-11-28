@@ -353,10 +353,30 @@ button {
 	}
 }
 
+.ml-button-horizontal,
+.ml-input-horizontal,
 .inline-form-group input,
 .inline-form-group button {
 	display: inline-block;
 	flex: 1 1 auto;
+}
+
+.ml-input-horizontal {
+	width: 100%;
+}
+
+.ml-button-horizontal {
+	display: flex;
+}
+
+.ml-form-embedContainer input,
+.ml-form-embedContainer button {
+	margin-bottom: 0;
+}
+
+.ml-button-horizontal,
+.ml-input-horizontal {
+	margin-bottom: 1em;
 }
 
 .inline-form-group input {
@@ -374,6 +394,71 @@ button {
 	margin: 1em 0 2em;
 }
 
-@media screen and (min-width:768px) {
+.ml-form-embedSubmitLoad {
+	display: inline-flex;
+	width: 15px;
+	height: 15px;
+	justify-content: center;
+	align-items: center;
+}
 
+.ml-form-embedSubmitLoad:after {
+	content: " ";
+	display: block;
+	width: 11px;
+	height: 11px;
+	margin: 1px;
+	border-radius: 50%;
+	border: 4px solid #fff;
+	border-color: #ffffff #ffffff #ffffff transparent;
+	animation: ml-form-embedSubmitLoad 1.2s linear infinite;
+}
+  
+@keyframes ml-form-embedSubmitLoad {
+	0% {
+		transform: rotate(0deg);
+	}
+	100% {
+		transform: rotate(360deg);
+	}
+}
+
+.ml-form-embedContainer button.loading {
+  display: none;
+}
+
+.ml-subscribe-close {
+  width: 30px;
+  height: 30px;
+  background: url(https://bucket.mlcdn.com/images/default/modal_close.png) no-repeat;
+  background-size: 30px;
+  cursor: pointer;
+  margin-top: -10px;
+  margin-right: -10px;
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+
+.ml-error input {
+  background: url(https://bucket.mlcdn.com/images/default/error-icon.png) 98% center no-repeat #ffffff !important;
+  background-size: 24px 24px !important;
+}
+
+.ml-error .label-description {
+  color: #ff0000 !important;
+}
+
+.ml-error .label-description p {
+  color: #ff0000;
+}
+
+.ml-form-embedContainer .label-description p,
+.ml-form-embedContainer .label-description p:first-letter {
+  color: #ff0000;
+}
+
+.ml_message_wrapper {
+	position: absolute !important;
+	left: -9999px !important;
 }
