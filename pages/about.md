@@ -10,7 +10,7 @@ permalink: /about/index.html
 
 <h1>{{ title }}</h1>
 
-I'm <a class="accent" href="https://twitter.com/hmillerdev">Hunter Miller</a>, a front-end architect and web perf enthusiast. I write a weekly newsletter, **Technically UX**, to keep the web community talking about how to improve the usability of the experiences we create. By doing so, I hope to bridge the gap between UX, design, and development so that our products can be more cohesive and enjoyable.
+I'm <a class="accent" href="https://twitter.com/hmillerdev">Hunter Miller</a>, a front-end architect and web perf enthusiast. I write **Technically UX** to keep the web community talking about how to improve the usability of the experiences we create. By doing so, I hope to bridge the gap between UX, design, and development so that our products can be more cohesive and enjoyable.
 
 ## How it started
 

@@ -45,7 +45,7 @@ When interruptions and delays are unavoidable we can work with human physiology 
 
 With goals and context in mind, following these principles should be straightforward. I hope that they're general enough to at least get you in the performance mindset when developing. Performance can be tricky and optimizing too early in the process can lead to wasted effort. After I've introduced the main aspects of technical UX, we'll dive into specific strategies for creating performant experiences on the web.
 
-Part two drops next week. If you have any questions about this topic or suggestions for the newsletter feel free to <a href="mailto:hunter@technicallyux.com">email me</a>.
+If you have any questions about this topic or suggestions for the newsletter feel free to <a href="mailto:hunter@technicallyux.com">email me</a>.
 
 <p>Until next time,<br>&ndash; <strong>Hunter</strong></p>
 

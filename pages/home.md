@@ -8,4 +8,4 @@ tags:
   - nav
 ---
 
-**Technically UX** is a weekly newsletter that helps web professionals craft effective user experiences. We discuss UX principles, performance, accessibility, and other topics relevant to developers, UX designers, and those who are trying to best serve their users.
+**Technically UX** is a newsletter/blog that helps web professionals craft effective user experiences. I discuss UX principles, performance, accessibility, and other topics relevant to developers, UX designers, and those who are trying to best serve their users.
