@@ -1,0 +1,22 @@
+---
+title: Senior Developers, Let Us Learn Too
+description: Development thrives on shared knowledge, exposure to others' ideas/cross-pollination, criticism of code style and architecture. We need senior developers to help foster that environment, not destroy it.
+summary: Development thrives on shared knowledge, exposure to others' ideas/cross-pollination, criticism of code style and architecture. We need senior developers to help foster that environment, not destroy it.
+date: 2019-08-16
+tags:
+  - rant
+  - politics
+  - growth
+---
+
+If you have a team of developers there will always be a mix of experiences and ages. Something I've noticed especially from senior and older developers is a tendency to be negative, doubtful, cynical, and quick to shoot down ideas that don't jive with what they know. This creates a culture without sharing because some ideas are worth more than others. This culture leads newer devs to censor themselves, and if I'm less likely to share what I think, then I'll be even moreso afraid to question what seniors say.
+
+I've had to develop a strong will and confidence to be able to question seniors and have my ideas heard. When making decisions about a new project, senior devs often have flimsy reasons, deep assumptions or very little passion to support their decisions. Sometimes I can sway them over a prolonged discussion because I'm often more passionate about a solution than they are, but frequently decisions get made quickly without the group because they decide to go ahead of the team.
+
+Senior devs that go off to "hero" a project are toxic. Just because you can fully implement a project top to bottom doesn't mean you should. Sometimes it's not even their choice to do so, but they often have the choice to include others on the project. If they don't and start making all the decisions, it feels like they are taking all the fun. Development thrives on shared knowledge, exposure to others' ideas/cross-pollination, criticism of code style and architecture. Too much code that has not been designed for readability and understanding especially without including others becomes a black hole. Their code is optimized for their own understanding. This creates artificial bottlenecks in the codebase. It becomes the sole responsibility of the person who wrote it, which leads to siloing, more context switching and overall a larger burden on the team. You may even make memes about the obtuse, complex, and messy code that no one wants to touch or untangle. 
+
+If you read Twitter at all, this is the "10x engineer" everyone was memeing about. When devs like this have strong opinions and loud voices, they will dominate a team. Too often these people are propped up by middle/upper management because they see them as high producers. Which leads to even more influence in their favor. It can be stifling. Seniors tackling the majority of the difficult work prevents the mids and juniors from reaching their full potential and perpetuates their status. And when others go to tackle hard problems they get stuck easier because they haven't had enough practice. It becomes a self-fulfilling prophecy. 
+
+What does it take to reverse the situation? Like in most crafts, devs need room to make mistakes and fuck up. We need time to learn. We don't come out of the womb knowing all the intricate knowledge that we are expected to know, especially intimate business knowledge. Plus, no one knows everything. We need seniors with a beginner's mind, open to learn something even from the noobiest junior. Because as we've seen, the world of development changes quickly and there's always something new to learn. Encouraging others to own projects, removing your ego from solutions, asking hard questions that help others to arrive at the correct architecture/solution, guiding architecture but not dictating it, pairing, helpful code reviews. When you find a senior who takes support of the teams seriously, it's a breath of fresh air and helps the team move faster as a whole.
+
+It can be tough balancing this with business needs, especially if it's a particularly toxic business culture too. Really it all boils down to time and patience. Good senior devs will take time with others and really help to make sure they understand. Like any good leadership they should be willing to get their hands dirty, pave the way, but ultimiately trust that the rest of the team can carry out the majority of the work.
