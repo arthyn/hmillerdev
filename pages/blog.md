@@ -10,5 +10,5 @@ permalink: /blog/index.html
 
 <header class="blog-header">
   <h1>{{ title }}</h1>
-  <p>All emails are archived here as they are sent. From time to time I'll also post standalone articles here, but you'll be notified if you're on the list.</p>
+  <p>I'm trying to get more of my thoughts out into the world and this is where I'm posting them. You'll be notified of any posts if you're on the email list.</p>
 </header>

@@ -5,6 +5,7 @@ summary: Introducing performance as the first aspect of technical UX, and the pr
 date: 2018-11-01
 tags:
   - introductions
+  - technical ux
   - performance
 ---
 
