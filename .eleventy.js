@@ -53,6 +53,7 @@ module.exports = function(eleventyConfig) {
   });
 
   // Don't process folders with static assets e.g. images
+  eleventyConfig.addPassthroughCopy("_redirects");
   eleventyConfig.addPassthroughCopy("static");
   eleventyConfig.addPassthroughCopy("_includes/assets/js");
   eleventyConfig.addPassthroughCopy("admin");
