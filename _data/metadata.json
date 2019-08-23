@@ -1,10 +1,12 @@
 {
-  "title": "Technically UX",
-  "description": "Technically UX is a weekly newsletter discussing UX principles, performance, accessibility, and other topics that help web developers, designers, and ux professionals craft effective user experiences.",
-  "url": "https://technicallyux.com",
+  "title": "Hunter Miller",
+  "description": "Hunter Miller is a developer, consultant, and web performance enthusiast focused on user experience and making people happy. 😃",
+  "url": "https://hmiller.dev",
   "author": {
     "name": "Hunter Miller",
     "email": "hunter@technicallyux.com",
-    "github": "https://github.com/arthyn"
+    "github": "https://github.com/arthyn",
+    "twitter": "@hmillerdev",
+    "twitter_url": "https://twitter.com/hmillerdev"
   }
 }

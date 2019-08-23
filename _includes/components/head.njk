@@ -22,12 +22,12 @@
   <meta name="twitter:card" content="summary_large_image">
   <meta name="twitter:title" content="{{ title }} | {{ metadata.title }}">
   <meta name="twitter:description" content="{{ description or metadata.description }}">
-  <meta name="twitter:creator" content="@hmillerdev">
+  <meta name="twitter:creator" content="{{ metadata.author.twitter }}">
   <meta name="twitter:image:src" content="{{ metadata.url }}/static/share.png">
   <!-- Open Graph general (Facebook, Pinterest & Google+) -->
   <meta name="og:title" content="{{ title }}">
   <meta name="og:description" content="{{ description or metadata.description }}">
-  <meta name="og:image" content="http://technicallyux.com/static/share.png">
+  <meta name="og:image" content="{{ metadata.url }}/static/share.png">
   <meta name="og:image:secure_url" content="{{ metadata.url }}/static/share.png">
   <meta name="og:image:type" content="image/png">
   <meta name="og:image:height" content="410">
