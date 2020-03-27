@@ -19,7 +19,7 @@ For example, minor things like keeping a particular sleep schedule, cutting gras
 
 And yet, this hasn't quite seemed to have hit my company's psyche yet. We're still mostly business as usual (besides now all working from home and taking precautions), building the same software for the same projects that we were working on before. With mostly the same deadlines. It feels wrong or at the least off. It feels like we should be contributing to the problem at hand, the pandemic. If not that, it feels like we should be working on cleaning up and bolstering the core software. But we aren't. We're building for new features, like we always are.
 
-Before this crisis, we operated as a feature factory for the large ecommerce site we run at Stuller, one of the world's largest jewelery manufacturers. The feature factory pace/prioritization has been written about many times before. The business comes up with a new feature to offer users in an attempt to get more sales, and then we build it. Repeat. 
+Before this crisis, we operated as a feature factory for the large ecommerce site we run, at one of the world's largest jewelery manufacturers. The feature factory pace/prioritization has been written about many times before. The business comes up with a new feature to offer users in an attempt to get more sales, and then we build it. Repeat. 
 
 The effects of this style can be seen everywhere. Complicated UI that appeases the 1% of users who actually use it while confusing the 99% who don't need it. Tons of code that hasn't been touched in years. Over burdened teams with ever depreciating code bases and little to no time for maintenance of the core features. 
 
