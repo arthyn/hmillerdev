@@ -157,6 +157,11 @@ ul {
 	list-style: none;
 }
 
+img {
+	max-width: 100%;
+	height: auto;
+}
+
 header {
 	display: flex;
 	flex-wrap: wrap;
