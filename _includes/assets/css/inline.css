@@ -152,9 +152,13 @@ sub {
 	font-size: .8em;
 }
 
-ul {
+:not(article) > ul {
 	padding: 0;
 	list-style: none;
+}
+
+article > ul > li {
+	margin-bottom: .5em;
 }
 
 img {
