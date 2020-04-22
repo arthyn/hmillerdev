@@ -33,7 +33,7 @@
     "clean-css": "^4.1.11",
     "fg-loadcss": "^2.0.1",
     "fontfaceobserver": "^2.0.13",
-    "html-minifier": "^3.5.19",
+    "html-minifier": "^4.0.0",
     "uglify-js": "^3.9.1"
   }
 }
