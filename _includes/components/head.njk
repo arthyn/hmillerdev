@@ -12,27 +12,22 @@
   <meta name="msapplication-TileColor" content="#2d3beb">
   <meta name="msapplication-config" content="/static/browserconfig.xml">
   <meta name="theme-color" content="#2d3beb">
-  <meta name="image" content="{{ metadata.url }}/static/share.png">
+  <meta name="image" content="{{ metadata.url }}{{ shareimage or '/static/share.png' }}">
   <meta name="google-site-verification" content="-jUvV8UCjKbZHLw4B05Le_8bpxcMcGHsEouh3y-tV9I" />
   <!-- Schema.org for Google -->
   <meta itemprop="name" content="{{ title }} | {{ metadata.title }}">
   <meta itemprop="description" content="{{ description or metadata.description }}">
-  <meta itemprop="image" content="{{ metadata.url }}/static/share.png">
+  <meta itemprop="image" content="{{ metadata.url }}{{ shareimage or '/static/share.png' }}">
   <!-- Twitter -->
   <meta name="twitter:card" content="summary_large_image">
   <meta name="twitter:title" content="{{ title }} | {{ metadata.title }}">
   <meta name="twitter:description" content="{{ description or metadata.description }}">
   <meta name="twitter:creator" content="{{ metadata.author.twitter }}">
-  <meta name="twitter:image:src" content="{{ metadata.url }}/static/share.png">
+  <meta name="twitter:image:src" content="{{ metadata.url }}{{ shareimage or '/static/share.png' }}">
   <!-- Open Graph general (Facebook, Pinterest & Google+) -->
   <meta name="og:title" content="{{ title }}">
   <meta name="og:description" content="{{ description or metadata.description }}">
-  <meta name="og:image" content="{{ metadata.url }}/static/share.png">
-  <meta name="og:image:secure_url" content="{{ metadata.url }}/static/share.png">
-  <meta name="og:image:type" content="image/png">
-  <meta name="og:image:height" content="410">
-  <meta name="og:image:width" content="820">
-  <meta property="og:image:alt" content="Technically UX">
+  <meta name="og:image" content="{{ metadata.url }}{{ shareimage or '/static/share.png' }}">
   <meta name="og:url" content="{{ metadata.url }}">
   <meta name="og:site_name" content="{{ metadata.title }}">
   <meta name="og:locale" content="en_US">

@@ -2,6 +2,7 @@
 title: "Front-end Practices That Changed My Life"
 description: Here's a long list of simple front-end development practices that will help you be more productive in your day-to-day.
 summary: Here's a long list of practices that I've found helpful in front-end development. Many of them significantly changed the way I work for the better and made my day-to-day more productive.
+shareimage: /static/img/craft.jpg
 date: 2020-04-24
 tags:
   - principles
