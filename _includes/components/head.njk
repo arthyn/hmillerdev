@@ -45,10 +45,18 @@
   
   <link rel="dns-prefetch" href="https://use.typekit.net">
   <link rel="stylesheet" href="https://use.typekit.net/sqq3kst.css">
+  {% if highlighting %}
+    <link rel="preload" href="/_includes/assets/css/a11y-dark.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+    <noscript><link rel="stylesheet" href="/_includes/assets/css/a11y-dark.css"></noscript>
+  {% endif %}
 
   {% set js %}
     {% include "assets/js/loadJS.js" %}
     {% include "assets/js/detect-cached-font.js" %}
+    {% if highlighting %}
+      {% include "assets/js/cssrelpreload.js" %}
+    {% endif %}
   {% endset %}
   <script>{{ js | jsmin | safe }}</script>
+
 </head>

@@ -1,36 +1,17 @@
-const { DateTime } = require("luxon");
-const CleanCSS = require("clean-css");
-const minify = require("babel-minify");
+const filters = require("./filters");
 const htmlmin = require("html-minifier");
+const syntaxHighlight = require("@11ty/eleventy-plugin-syntaxhighlight");
 
 module.exports = function(eleventyConfig) {
 
+  eleventyConfig.addPlugin(syntaxHighlight);
+  
   eleventyConfig.addLayoutAlias("post", "layouts/post.njk");
 
-  // Date formatting (human readable)
-  eleventyConfig.addFilter("readableDate", dateObj => {
-    return DateTime.fromJSDate(dateObj).toFormat("dd LLL yyyy");
-  });
-
-  // Date formatting (machine readable)
-  eleventyConfig.addFilter("machineDate", dateObj => {
-    return DateTime.fromJSDate(dateObj).toFormat("yyyy-MM-dd");
-  });
-
-  // Minify CSS
-  eleventyConfig.addFilter("cssmin", function(code) {
-    return new CleanCSS({}).minify(code).styles;
-  });
-
-  // Minify JS
-  eleventyConfig.addFilter("jsmin", function(code) {
-    let minified = minify(code);
-    if( minified.error ) {
-      console.log("UglifyJS error: ", minified.error);
-      return code;
-    }
-    return minified.code;
-  });
+  //Filters
+  Object.keys(filters).forEach(filterName => {
+    eleventyConfig.addFilter(filterName, filters[filterName]);
+  })
 
   // Minify HTML output
   eleventyConfig.addTransform("htmlmin", function(content, outputPath) {
@@ -55,7 +36,7 @@ module.exports = function(eleventyConfig) {
   // Don't process folders with static assets e.g. images
   eleventyConfig.addPassthroughCopy("_redirects");
   eleventyConfig.addPassthroughCopy("static");
-  eleventyConfig.addPassthroughCopy("_includes/assets/js");
+  eleventyConfig.addPassthroughCopy("_includes/assets");
   eleventyConfig.addPassthroughCopy("admin");
 
   /* Markdown Plugins */
