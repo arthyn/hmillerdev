@@ -1,0 +1,40 @@
+---
+layout: layouts/base.njk
+title: Blog
+tags:
+  - nav
+navtitle: blog
+section: Home
+date: 2016-01-01T00:00:00.000Z
+permalink: /
+---
+
+<article>
+
+  <h1 class="text-base">Hi, I'm Hunter!</h1>
+
+  <p>I'm a software developer creating systems that actually help us and are unintrusive. I love complaining about the current state of UI, software, and computing in general which I write about here and on twitter <a href="{{ metadata.author.twitter_url }}" target="_blank" rel="noopener">{{ metadata.author.twitter }}</a>.</p>
+
+  <p>During the day, I'm currently working on bringing software distribution to Urbit at <a href="https://tlon.io" target="_blank" rel="noopener">Tlon</a>. At night, I'm focused on building the next UI language for the web, Urbit, and native systems.</p>
+
+</article>
+
+{% set postslist = collections.posts %}
+{% include "components/postslist.njk" %}
+
+<h2 class="post-listing-header">Articles I've written elsewhere</h2>
+
+<h3 class="post-listing">
+  <time><small>07/21</small></time>
+  <a href="https://labs.thisdot.co/blog/react-18-concurrency-and-streaming-ssr" target="_blank" rel="noopener">React 18: Concurrency and Streaming SSR</a>
+</h3>
+
+<h3 class="post-listing">
+  <time><small>11/20</small></time>
+  <a href="https://labs.thisdot.co/blog/what-can-you-do-with-tailwind-2" target="_blank" rel="noopener">What Can You Do with Tailwind 2?</a>
+</h3>
+
+<h3 class="post-listing">
+  <time><small>09/20</small></time>
+  <a href="https://labs.thisdot.co/blog/why-you-should-use-react-query-or-swr" target="_blank" rel="noopener">Why You Should Use React Query or SWR</a>
+</h3>

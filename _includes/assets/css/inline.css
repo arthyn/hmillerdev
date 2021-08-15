@@ -76,7 +76,7 @@ a[href]:visited {
 	color: var(--text);
 	text-decoration: underline;
 	transition: .15s color, .15s text-decoration-color;
-	text-decoration-color: var(--text-light);
+	text-decoration-color: var(--bg-light-grey);
 	text-decoration-thickness: 2px;
 }
 
@@ -230,6 +230,10 @@ header p {
 	text-transform: lowercase;
 }
 
+.logo a {
+	text-decoration: none;
+}
+
 .cursor {
 	position: absolute;
 	bottom: -.1em;
@@ -240,8 +244,20 @@ header p {
 	border-bottom: 4px solid var(--accent);
 }
 
-header a[href] {
-	text-decoration: none;
+.nav a[href] {
+	text-decoration: underline;
+	text-decoration-thickness: 2px;
+	text-decoration-color: var(--white);
+	transition: .15s text-decoration-color;
+}
+
+
+.nav a[data-current="current item"] {
+	text-decoration-color: var(--bg-light-grey);
+}
+
+.nav a:hover {
+	text-decoration-color: var(--accent);
 }
 
 header nav {
@@ -250,24 +266,19 @@ header nav {
 	color: var(--text-light);
 }
 
-header nav ul {
+.nav ul {
 	margin: 0 0 .1em;
 }
 
 /* Header Nav */
-header nav ul :first-child {
+.nav ul :first-child {
 	margin-left: 0;
 }
 
-header nav li {
+.nav li {
 	display: inline-block;
 	margin: 0 .5em;
 	text-transform: lowercase;
-}
-
-header nav li a[data-current="current item"] {
-	position: relative;
-	border-bottom: 2px solid var(--text);
 }
 
 /* header nav li a[data-current="current item"]::after {
@@ -284,9 +295,14 @@ footer {
 	color: var(--text-light);
 }
 
+.post-listing-header {
+	margin-top: 2.5rem;
+}
+
 .post-listing {
 	display: flex;
 	margin-bottom: 1em;
+	font-size: 1.2rem;
 	font-weight: 400;
 	line-height: 1.2;
 }
