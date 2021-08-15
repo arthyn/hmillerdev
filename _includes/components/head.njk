@@ -18,7 +18,7 @@
   <meta itemprop="name" content="{{ title }} | {{ metadata.title }}">
   <meta itemprop="description" content="{{ description or metadata.description }}">
   {% if shareimage %}
-    <meta itemprop="image" content="{{ metadata.url }}{{ shareimage or '/static/share.png' }}">
+    <meta itemprop="image" content="{{ metadata.url }}{{ shareimage }}">
   {% endif %}
   <!-- Twitter -->
   <meta name="twitter:card" content="summary_large_image">
@@ -26,13 +26,13 @@
   <meta name="twitter:description" content="{{ description or metadata.description }}">
   <meta name="twitter:creator" content="{{ metadata.author.twitter }}">
   {% if shareimage %}
-    <meta name="twitter:image:src" content="{{ metadata.url }}{{ shareimage or '/static/share.png' }}">
+    <meta name="twitter:image:src" content="{{ metadata.url }}{{ shareimage }}">
   {% endif %}
   <!-- Open Graph general (Facebook, Pinterest & Google+) -->
   <meta name="og:title" content="{{ title }}">
   <meta name="og:description" content="{{ description or metadata.description }}">
   {% if shareimage %}
-    <meta name="og:image" content="{{ metadata.url }}{{ shareimage or '/static/share.png' }}">
+    <meta name="og:image" content="{{ metadata.url }}{{ shareimage }}">
   {% endif %}
   <meta name="og:url" content="{{ metadata.url }}">
   <meta name="og:site_name" content="{{ metadata.title }}">

@@ -15,4 +15,4 @@ I'm engrossed in philosophy, spirituality, and learning how to live a simple, ba
 
 That bleeds into my development style. I much prefer technology and code that's easy to reason about, expressive but simple, and beneficial to both users and devs.
 
-![Handsome man telepathically floats taquitos](/static/img/floating-burritos.jpg)
+![Handsome man telepathically floats taquitos](/img/floating-burritos.jpg)
