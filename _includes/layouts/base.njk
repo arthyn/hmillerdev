@@ -6,9 +6,13 @@
 	<body>
 
 		<header>
-			<em>
-				<a href="{{ '/' | url }}"><span class="ux">H</span>unter Miller</a>
-			</em>
+			<h1 class="logo">
+				<a href="{{ '/' | url }}">
+					<span hidden aria-hidden>~</span>
+					<span>Hunter Miller</span>
+					<span class="cursor"></span>
+				</a>
+			</h1>
 			{% include "components/nav.njk" %}
 		</header>
 

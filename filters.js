@@ -4,6 +4,10 @@ const minify = require("babel-minify");
 const rootUrl = require('./_data/metadata.json').url
 
 module.exports = {
+	// Short date
+	shortDate: dateObj => {
+		return DateTime.fromJSDate(dateObj).toFormat("MM/yy");
+	},
 	// Date formatting (human readable)
 	readableDate: dateObj => {
 		return DateTime.fromJSDate(dateObj).toFormat("dd LLL yyyy");

@@ -12,6 +12,4 @@ tags:
     <p>Learn how to <strong>bring peace to your users</strong> (and devs) by thinking more <strong>holistically</strong>,  finding <strong>what really matters</strong>, and building <strong>polished experiences</strong> with or without a UX team.</p>
 </div>
 
-{% include "components/tux-signup.njk" %}
-
 I'm currently in the middle of building **Technically UX**, a consulting service aimed at helping development teams deliver better products by improving their UX and performance skills. If you're interested, sign up to the email list above where I'll post updates about the service, courses I'm coming out with and any other relevant info.
