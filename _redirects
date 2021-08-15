@@ -2,3 +2,4 @@
 
 # Redirect domain aliases to primary domain
 https://technicallyux.com/* https://hmiller.dev/:splat 301!
+/blog/*                     /:splat
