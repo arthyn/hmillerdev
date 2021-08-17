@@ -6,7 +6,10 @@ module.exports = function(eleventyConfig) {
 
   eleventyConfig.addPlugin(syntaxHighlight);
   
+  eleventyConfig.addLayoutAlias("base", "layouts/base.njk");
   eleventyConfig.addLayoutAlias("post", "layouts/post.njk");
+
+  eleventyConfig.setDataDeepMerge(true);
 
   //Filters
   Object.keys(filters).forEach(filterName => {
@@ -24,13 +27,6 @@ module.exports = function(eleventyConfig) {
       return minified;
     }
     return content;
-  });
-
-  // only content in the `posts/` directory
-  eleventyConfig.addCollection("posts", function(collection) {
-    return collection.getAllSorted().filter(function(item) {
-      return item.inputPath.match(/^\.\/posts\//) !== null;
-    });
   });
 
   // Don't process folders with static assets e.g. images
@@ -71,7 +67,7 @@ module.exports = function(eleventyConfig) {
     dataTemplateEngine: "njk",
     passthroughFileCopy: true,
     dir: {
-      input: ".",
+      input: "src",
       includes: "_includes",
       data: "_data",
       output: "_site"

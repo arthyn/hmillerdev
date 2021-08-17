@@ -1,5 +1,5 @@
 ---
-layout: layouts/base.njk
+layout: base
 title: About
 date: 2020-04-15
 navtitle: About

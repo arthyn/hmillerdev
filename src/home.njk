@@ -1,5 +1,5 @@
 ---
-layout: layouts/base.njk
+layout: base
 title: Blog
 tags:
   - nav
@@ -19,7 +19,8 @@ permalink: /
 
 </article>
 
-{% set postslist = collections.posts %}
+{{ collections.post | log }}
+{% set postslist = collections.post %}
 {% include "components/postslist.njk" %}
 
 <h2 class="post-listing-header">Articles I've written elsewhere</h2>

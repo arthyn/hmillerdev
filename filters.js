@@ -1,7 +1,7 @@
 const { DateTime } = require("luxon");
 const CleanCSS = require("clean-css");
 const minify = require("babel-minify");
-const rootUrl = require('./_data/metadata.json').url
+const rootUrl = require('./src/_data/metadata.json').url
 
 module.exports = {
 	// Short date
