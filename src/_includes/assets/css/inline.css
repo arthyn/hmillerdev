@@ -76,7 +76,7 @@ a[href]:visited {
 	color: var(--text);
 	text-decoration: underline;
 	transition: .15s color, .15s text-decoration-color;
-	text-decoration-color: var(--bg-light-grey);
+	text-decoration-color: var(--accent);
 	text-decoration-thickness: 2px;
 }
 
@@ -87,7 +87,7 @@ a[href].accent {
 
 a[href]:hover {
 	//color: var(--text-light);
-	text-decoration-color: var(--accent);
+	text-decoration-color: var(--bg-light-grey);
 }
 
 h1, h2, h3, h4, h5, h6 {
